@@ -1,0 +1,35 @@
+.banner{
+    background-image: url("https://img.freepik.com/fotos-premium/hamburguesa-ketchup-queso-lechuga-tomate-ternera-cebolla-fondo-negro-lugar-enfoque-selectivo-texto_210632-3900.jpg?w=1380");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px;
+}
+.Lado-SN{
+    color: beige;
+    padding-top: 50px;
+}
+.titulo-SN{
+    text-align: left;
+    padding-left: 300px;
+}
+
+.t-SN {
+    text-align: left;
+    padding-left: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.parrafo-SN p {
+    text-align: left;
+    padding-left: 150px;
+}
+.direccion{
+    padding-top: 100px;
+}
+.sec-formulario{
+    background-color:#b2b4b3 ;
+}
+form{
+    width: 150px;
+}

@@ -15,7 +15,7 @@ const NavBarProyect = () => {
                             <Nav.Link as={Link} to="/SobreNosotros">SobreNosotros</Nav.Link>
                             <Nav.Link as={Link} to="/Carta">Carta</Nav.Link>
                             <Nav.Link as={Link} to="/Reservas">Reservas</Nav.Link>
-                            <Nav.Link as={Link} to="/TconNosotros">Trabaja con Nosotros</Nav.Link>
+                            <Nav.Link as={Link} to="/Prueba">Prueba</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

@@ -1,6 +1,29 @@
-
+body{
+    width: 100%;
+}
+.body-SN{
+    background-color: rgb(128, 134, 139);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    text-align: center;
+}
+.titulo-SN{
+    margin: 30px;
+    text-align: center;
+    
+}
 .imagen-SN{
-    margin-top: 30px;
-    width: 50vh;
+    margin: 30px;
+    margin-left: 150px;
+    width: 35vh ;
+    height:fit-contentx;
     border-radius: 15px;
+}
+.br-SN{
+    margin-bottom: 30px;
+}
+
+.imagen-SN-S {
+    width: 100%;
+    height: 80%;
 }

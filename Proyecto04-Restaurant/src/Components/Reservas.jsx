@@ -1,9 +1,10 @@
+import Formulario from './FormReserva'
 
 const Reservas = () => {
     return (
         <>
         <div className="container">
-            <h1>Menu Reservas</h1>
+            <Formulario/>
         </div>
         </>
     );
