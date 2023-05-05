@@ -30,6 +30,13 @@
 .sec-formulario{
     background-color:#b2b4b3 ;
 }
-form{
-    width: 150px;
+.formulario{
+    width: fit-content;
+    height: 400pxpx;
+}
+Form.Group{
+    width: 100px;
+}
+.card-formulario{
+    display: flex;
 }
