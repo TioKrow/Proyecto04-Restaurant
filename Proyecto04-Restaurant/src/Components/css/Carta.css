@@ -1,0 +1,35 @@
+.item-menu {
+    width: 60%;
+    background-color: blanchedalmond;
+    box-shadow: 5px 5px 5px gray;
+    padding: 50px;
+    margin: 50px auto;
+    border-radius: 10px;
+
+}
+
+.item-menu h2 {
+    text-align: center;
+}
+
+.td-nombre {
+    font-weight: bold;
+    width: 400px;
+}
+.td-precio{
+    width: 250px;
+    text-align: right;
+}
+
+.img-item {
+    width: 150px;
+    border-radius: 25px;
+}
+
+tr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    color: black;
+}
