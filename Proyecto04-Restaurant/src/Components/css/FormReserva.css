@@ -1,0 +1,46 @@
+.cardForm h4{
+    text-align: center;
+}
+.cardForm p{
+    text-align:  justify;
+    padding: 0px 30px;
+    opacity: 70%;
+}
+.cardForm{
+    width: 500px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: blanchedalmond;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.form-name{
+    margin: 10px auto;
+}
+.form-number{
+    margin: 10px auto;
+}
+.form-Text{
+    margin: 10px auto;
+}
+.buttonForm{
+    background-color: black;
+    border: none;
+}
+.buttonForm:hover{
+    background-color: black;
+
+}
+@media screen and (min-width: 320px) and (max-width:425) {
+
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+
+    .cardForm{
+        width: 80%;
+    }
+    .form-Text::placeholder{
+        font-size: 30px;
+    }
+}

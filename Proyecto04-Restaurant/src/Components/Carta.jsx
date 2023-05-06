@@ -7,7 +7,7 @@ import { Table } from "react-bootstrap"
 
 function Carta() {
     return (
-        <div className='item-menu'>
+        <section className='item-menu'>
             <h2>Menu Burgers </h2> <hr />
             <Table>
                 {
@@ -23,8 +23,7 @@ function Carta() {
                     ))
                 }
             </Table>
-
-        </div>
+        </section>
     )
 
 }

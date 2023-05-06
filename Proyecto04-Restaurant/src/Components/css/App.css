@@ -3,5 +3,9 @@ body{
     background-image: url("./src/assets/blurred-restaurant-scene-with-empty-tabletop-free-photo.webp");
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
+}
+@media (min-width: 320px) and (max-width: 425px) {
+
 }
 

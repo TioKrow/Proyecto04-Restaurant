@@ -14,8 +14,7 @@ const NavBarProyect = () => {
                         <Nav className="me-auto">
                             <Nav.Link as={Link} to="/SobreNosotros">SobreNosotros</Nav.Link>
                             <Nav.Link as={Link} to="/Carta">Carta</Nav.Link>
-                            <Nav.Link as={Link} to="/Reservas">Reservas</Nav.Link>
-                            <Nav.Link as={Link} to="/Prueba">Prueba</Nav.Link>
+                            <Nav.Link as={Link} to="/Reservas">Reservaciones</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

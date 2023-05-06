@@ -1,28 +1,27 @@
-import Image from 'react-bootstrap/Image'
+import React from 'react';
 import './css/SobreNosotros.css'
 
-function SobreNosotros() {
+const SobreNosotros = () => {
     return (
         <>
-            <div className="body-SN">
-                <Image className='imagen-SN' src="https://i.gifer.com/44vV.gif" />
+            <section className='banner'>
                 <section className='Lado-SN'>
-                    <h2 className='titulo-SN'>Las mejores American Style Burger de Concepcion</h2><hr />
+                    <h1 className='titulo-SN'>Arriagada's Burger Place </h1>
+                    <h2 className='t-SN'>Las mejores American Style Burger de Concepcion</h2>
                     <div className='parrafo-SN'>
                         <p>Tan solo a metros de la plaza peru ven a compartir con tus amigos y seres queridos.</p>
                         <p>Nos hemos destacado por crear una exquisita variedad de hamburgesas Americanas
                             con los mejores ingredientes.<br className='br-SN' />
                             Nuestros chefs de calidad internacional crean una experiencia gastronómica
                             que permite que jamás olvides tu visita.</p>
+                        <p className='direccion'>
+                            Estamos ubicados en Orompello 180, Concepción, Bío Bío
+                        </p>
                     </div>
                 </section>
-            </div>
-            <section >
-            <Image className='imagen-SN-S' src="https://img.freepik.com/fotos-premium/hamburguesa-ketchup-queso-lechuga-tomate-ternera-cebolla-fondo-negro-lugar-enfoque-selectivo-texto_210632-3900.jpg?w=1380"/>
-            
             </section>
         </>
-    )
-}
+    );
+};
 
 export default SobreNosotros;

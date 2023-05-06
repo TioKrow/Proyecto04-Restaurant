@@ -2,10 +2,13 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Card from 'react-bootstrap/Card';
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
+import './css/FormReserva.css'
 
 function Formulario() {
     return (
         <Card className='cardForm'>
+            <h4>Rellena el formulario y nosotros nos contactaremos contigo</h4>
+            <p>A partir de tu contacto, nos comunicaremos contigo para revisar fechas y disponibilidad de horarios.</p>
             <Form className='formulario'>
                 <Form.Group className="form-name" controlId="formBasicNombre">
                     <Form.Control
@@ -21,9 +24,6 @@ function Formulario() {
                         placeholder="Telefono"
                     />
                 </Form.Group>
-                <Form.Group className="form-email" controlId="exampleForm.ControlInput1">
-                    <Form.Control type="email" placeholder="nombre@example.com" />
-                </Form.Group>
                 <Form.Group>
                     <FloatingLabel
                         controlId="floatingTextarea"
@@ -33,23 +33,7 @@ function Formulario() {
                         <Form.Control as="textarea" placeholder="Dejanos un comentario" />
                     </FloatingLabel>
                 </Form.Group>
-                <FloatingLabel controlId="floatingSelect" label="Dia de la reserva">
-                    <Form.Select className="form-Text" aria-label="Floating label select example">
-                        <option>Seleccione Dia</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
-                    </Form.Select>
-                </FloatingLabel>
-                <FloatingLabel controlId="floatingSelect" label="Hora de la reserva">
-                    <Form.Select className="form-Text" aria-label="Floating label select example">
-                        <option>Seleccione Hora</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
-                    </Form.Select>
-                </FloatingLabel>
-                <Button variant="primary" type="submit">
+                <Button className='buttonForm' type="submit">
                     Submit
                 </Button>
             </Form>
@@ -58,4 +42,4 @@ function Formulario() {
     );
 }
 
-export default Formulario; 11
+export default Formulario;
