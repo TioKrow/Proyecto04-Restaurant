@@ -39,6 +39,7 @@ function Formulario(props) {
                         name="inputNombre"
                         placeholder="Tu nombre"
                         onChange={handleInputChange}
+                        value={values.inputNombre}
                     />
                 </Form.Group>
                 <Form.Group className="form-number" >
@@ -47,6 +48,7 @@ function Formulario(props) {
                         name="inputTelefono"
                         placeholder="Telefono"
                         onChange={handleInputChange}
+                        value={values.inputTelefono}
                     />
                 </Form.Group>
                 <Form.Group>
@@ -54,7 +56,8 @@ function Formulario(props) {
                         label="Dejanos un comentario"
                         className="form-Text"
                     >
-                        <Form.Control as="textarea" name='inputComentario' onChange={handleInputChange} placeholder="Dejanos un comentario" />
+                        <Form.Control as="textarea" name='inputComentario' onChange={handleInputChange}
+                        value={values.inputComentario} placeholder="Dejanos un comentario" />
                     </FloatingLabel>
                 </Form.Group>
                 <Button className='buttonForm' type="submit">
