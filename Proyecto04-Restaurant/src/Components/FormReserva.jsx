@@ -3,34 +3,58 @@ import Form from 'react-bootstrap/Form';
 import Card from 'react-bootstrap/Card';
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import './css/FormReserva.css'
+import React, { useState } from 'react';
 
-function Formulario() {
+function Formulario(props) {
+
+    const initalStateValues = {
+        inputNombre: '',
+        inputTelefono: '',
+        inputComentario: ''
+    }
+
+    const [values, setValues] = useState(initalStateValues);
+
+    const handleInputChange = (e) => {
+        const { name, value } = e.target;
+        setValues({ ...values, [name]: value })
+    };
+
+    const handleSubmit = e => {
+        e.preventDefault();
+        props.agregaRegistro(values);
+    }
+
+
+
+
     return (
         <Card className='cardForm'>
             <h4>Rellena el formulario y nosotros nos contactaremos contigo</h4>
             <p>A partir de tu contacto, nos comunicaremos contigo para revisar fechas y disponibilidad de horarios.</p>
-            <Form className='formulario'>
-                <Form.Group className="form-name" controlId="formBasicNombre">
+            <Form className='formulario' onSubmit={handleSubmit}>
+                <Form.Group className="form-name" >
                     <Form.Control
                         type="text"
-                        id="inputNombre"
+                        name="inputNombre"
                         placeholder="Tu nombre"
+                        onChange={handleInputChange}
                     />
                 </Form.Group>
-                <Form.Group className="form-number" controlId="formBasicTelefono">
+                <Form.Group className="form-number" >
                     <Form.Control
                         type="number"
-                        id="inputTelefono"
+                        name="inputTelefono"
                         placeholder="Telefono"
+                        onChange={handleInputChange}
                     />
                 </Form.Group>
                 <Form.Group>
                     <FloatingLabel
-                        controlId="floatingTextarea"
                         label="Dejanos un comentario"
                         className="form-Text"
                     >
-                        <Form.Control as="textarea" placeholder="Dejanos un comentario" />
+                        <Form.Control as="textarea" name='inputComentario' onChange={handleInputChange} placeholder="Dejanos un comentario" />
                     </FloatingLabel>
                 </Form.Group>
                 <Button className='buttonForm' type="submit">
