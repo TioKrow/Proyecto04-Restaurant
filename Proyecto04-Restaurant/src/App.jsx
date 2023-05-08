@@ -3,8 +3,8 @@ import NavBarProyect from './Components/NavBar.jsx';
 import SobreNosotros from './Components/SobreNosotros.jsx';
 import Carta from './Components/Carta.jsx';
 import Reservas from './Components/Reservas.jsx'
-import './Components/css/App.css'
 import Footer from './Components/Footer.jsx';
+import './Components/css/App.css'
 
 
 function App() {
