@@ -61,7 +61,7 @@ function Formulario(props) {
                     </FloatingLabel>
                 </Form.Group>
                 <Button className='buttonForm' type="submit">
-                    Enviar
+                    Enviar reserva
                 </Button>
             </Form>
         </Card>
