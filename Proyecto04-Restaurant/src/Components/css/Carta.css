@@ -12,6 +12,21 @@
 .item-menu h2 {
     text-align: center;
 }
+body{
+    font-family: system-ui;
+    background-image: url("assets/blurred-restaurant-scene-with-empty-tabletop-free-photo.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+footer{
+    font-family: system-ui;
+    text-align: center;
+    color: beige;
+    width: 100%;
+}
+
 @media (min-width: 320px) and (max-width: 768px) {
     .img-item {
         width: 75px;
