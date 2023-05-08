@@ -29,7 +29,7 @@ function Formulario(props) {
 
 
     return (
-        <Card className='cardForm'>
+        <Card className='cardForm container'>
             <h4>Rellena el formulario y nosotros nos contactaremos contigo</h4>
             <p>A partir de tu contacto, nos comunicaremos contigo para revisar fechas y disponibilidad de horarios.</p>
             <Form className='formulario' onSubmit={handleSubmit}>

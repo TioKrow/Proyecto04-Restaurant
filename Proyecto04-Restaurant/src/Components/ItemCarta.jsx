@@ -2,7 +2,7 @@
 function ItemCarta({ nombre, detalle, precio, imgUrl}) {
     return (
                 <tr>
-                    <td className="td-imagen">
+                    <td className="td-imagen ">
                         <img
                             className='img-item'
                             alt='algo debe ir aqui'

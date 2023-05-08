@@ -7,9 +7,9 @@ import { Table } from "react-bootstrap"
 
 function Carta() {
     return (
-        <section className='item-menu'>
+        <section className='item-menu container '>
             <h2>Menu Burgers </h2> <hr />
-            <Table>
+            <Table className='col-sm-12 col-md-12 col-lg-12 col-xl-12'>
                 {
                     Hamburguesa.map(({ nombre, detalle, precio, imgUrl }) => (
                         <ItemCarta
