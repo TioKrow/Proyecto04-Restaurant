@@ -1,7 +1,6 @@
 {
   "name": "proyecto04-restaurant",
   "private": true,
-  "homepage": "https://tiokrow.github.io/Proyecto04-Restaurant/dist",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
