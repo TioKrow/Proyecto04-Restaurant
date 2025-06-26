@@ -3,11 +3,7 @@ export const Hamburguesa = [
         nombre: "The Pork Shop",
         detalle: "Jugoso Pulled Pork, bañado en queso cheddar fundido, cremoso coleslaw, pepinillos dulces y nuestra Secret Sauce. Incluye una salsa a elección y una porción de papas fritas crinkle!",
         precio: "5500",
-<<<<<<< HEAD
         imgUrl: "./src/Assets/hamburguesa_the_pork_shop_1673959505pmHdnV.jpeg"
-=======
-        imgUrl: "./src/assets/images/hamburguesa_the_pork_shop_1673959505pmHdnV.jpeg"
->>>>>>> 31b2640fbcf8217a26f02ad8b559e0c1b54f22da
     },
     {
         nombre: "Spicy Pulled Pork",
